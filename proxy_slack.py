@@ -3,7 +3,7 @@ import requests
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
-SLACK_WEBHOOK_URL = os.environ.get("https://hooks.slack.com/services/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")
+SLACK_WEBHOOK_URL = os.environ.get("https://hooks.slack.com/services/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")
 
 @app.route("/", methods=["POST"])
 def proxy_to_slack():
